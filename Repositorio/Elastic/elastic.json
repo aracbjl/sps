@@ -1,0 +1,76 @@
+{
+"guid": "0cb4df76-5090-422f-9a6e-1a8b3d92b650",
+"isActive": false,
+"payment"; 3146.95,
+"picture": "http://placehold.it/32x32",
+"age":21,
+"eyeColor": "brown",
+"name": {
+"first": "Belinda",
+"last": "Delaney"
+},
+"company": "LYRIA",
+"email": "belinda.delaney@lyria.net",
+"phone": "+1 (995) 589-3329",
+"address": "125 Dekoven Court, Watchtower, lowa, 5495",
+"about": "In est consectetur do tempor tempor cillum aute anim sint ipsum veniam mollit. Officiaenim enim irure
+ea esse ex pariatur veniam eiusmod ullamco irure cupidatat duis. Eu elit occaecat laboris fugiat ad officia Lorem
+sunt sint eu dolore id sint. Eiusmod duis culpa dolor sint consectetur ipsum consectetur.
+Commodo id fugiat
+reprehenderit aliqua occaecat ea sit occaecat amet consequat id. Mollit anim qui magna cupidatat cillum consectetur
+qui commodo nulla. Et voluptate veniam dolore et ex culpa exercitation ex amet Lorem occaecat
+excepteur minim.",
+"registered": "Thursday, January 21, 2016 2:49 AM",
+"latitude": "-56.791906",
+"longitude": "25.473575",
+"tags": [
+"duis",
+"laborum",
+"laboris",
+"sit",
+"consequat"
+],
+"range": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+],
+"friends": ]
+{
+"id": 0,
+"name": "Jeannie Dorsey"
+},
+{
+"id": 1,
+"name": "Rivera Mayo"
+},
+{
+"id": 2,
+"name": "Rosalind Gonzalez"
+}
+],
+"greeting": "Hello, Belinda! You have 5 unread messages.",
+"favoriteFruit": "apple"
+}
+
+
+
+GET /employee/_serch?q=Belinda
+
+GET /employee/_serch?q=*
+
+POST /employee/_doc/123
+{
+    "first": "Araceli"
+}
+
+DELETE /employee/_doc/123
+
+POST /Employee/_bulk

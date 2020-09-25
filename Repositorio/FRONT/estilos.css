@@ -1,0 +1,18 @@
+div{
+    width: 500px;
+    background: #fff;
+    margin:50px 85px;
+    padding: 30px;
+    
+ 
+}
+
+.caja {
+position: relative;
+top:100px;
+bottom:0px ;
+right: 0px ;
+left: 300px;
+}
+
+
